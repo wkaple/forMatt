@@ -10,3 +10,31 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+# ignore any compiled files
+*.class
+*.jar
+*.war
+ 
+# ignore IDE generated project files (Eclipse, IntelliJ IDEA)
+ 
+# Eclipse
+.settings/
+.project
+.classpath
+
+# ignore OS X finder files
+.DS_Store
+ 
+# ignore Windows thumbnail cache
+Thumbs.db
+ 
+# ignore private keys used with PKI
+*.ppk
+ 
+# ignore backup file
+*.bak
+
+ 
+# ignore windows temp files
+~$*
